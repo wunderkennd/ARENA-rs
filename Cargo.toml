@@ -1,0 +1,2 @@
+[workspace]
+members = ["arena-utils","prereqs", "ray-tracing"]
