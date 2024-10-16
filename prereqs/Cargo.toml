@@ -1,0 +1,14 @@
+[package]
+name = "prereqs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+candle-core = { version = "0.6" }
+candle-einops = { version = "0.1.1" }
+ndarray = "0.16.1"
+ndarray-npy = "0.9.1"
+arena-utils = { path = "../arena-utils"}
+
+[package.metadata.docs.rs]
+no-default-features = true
